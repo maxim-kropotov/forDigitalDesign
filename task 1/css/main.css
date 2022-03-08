@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+body {
+    background-color: #D7DDCB;
+    margin: 0;
+    padding: 0;
+}
+
+#main .code_text {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#main .code_box {
+    background: #F0F0F0;
+    padding: 1vh;
+}
+
+#main a {
+    color: #B26624 !important;
+    text-decoration: none;
+}
+
+#main a:hover {
+    text-decoration: underline;
+}
+
+#scroll_up {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    background: #EAEDE3;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 96%;
+    margin-top: 45%;
+    box-shadow: 0 0 5px 3px #A1A1A1;
+    opacity: 0.7;
+}
+
+#scroll_up:hover {
+    color: #fff;
+    background: #333;
+}
+
+#main {
+    background: #DEDEDE;
+    width: 60%;
+    margin-left: 20%;
+    padding: 1%;
+    box-shadow: 0 -0 5px 5px #BDBDBD;
+}
+
+#nav {
+    position: fixed;
+    list-style: none;
+    display: block;
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 50px;
+    opacity: 0.6;
+    margin-top: 2vh;
+}
+
+#nav li {
+    list-style-type: none;
+    background: #EAEDE3;
+    border: 1px solid silver;
+    padding: 0 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+#nav li:hover {
+    color: #fff;
+    background: #333;
+    border-color: #333;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+#main h1 {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+#main h2 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.1px;
+}
+
+#main h3 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    letter-spacing: 1.1px;
+}
+
+#main p, ol, ul, li {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#main .img_with_text {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#main .images {
+    box-shadow:  0 0 10px 2px #A1A1A1;
+}
